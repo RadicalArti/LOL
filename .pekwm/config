@@ -1,0 +1,6 @@
+INCLUDE = "config_system"
+
+Files {
+    Theme = "~/.pekwm/themes/arti"
+}
+

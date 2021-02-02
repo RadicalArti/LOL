@@ -1,0 +1,23 @@
+>: su-
+
+>: apt update
+>: apt install vim vim-gtk sudo git
+
+#USER = user name of your system
+>: adduser USER sudo 
+
+>: Reboot
+
+#disable recommended and suggested packages that beeing pulled by apt install by default
+>: sudo cp /usr/share/doc/apt/apt.conf /etc/apt
+>: sudo nano /etc/apt/apt.conf
+
+	APT::Install-Recommends "0";
+	APT::Install-Suggests "0"
+
+>: sudo apt install xorg amd64-microcode
+>: sudo apt install xterm chromium chromium-sandbox pekwm ranger hsetroot tint2 neofetch build-essential feh gimp xfce4-panel xfce4-weather-plugin xfce4-xkb-plugin xfce4-pulseaudio-plugin xfonts-terminus zip unzip neovim mpd lxappearance htop transmission psmisc xcompmgr w3m vim vim-gtk
+
+#st requirements
+>: sudo apt install libx11-dev libxft-dev
+

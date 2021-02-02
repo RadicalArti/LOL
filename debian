@@ -1,0 +1,28 @@
+>: su-
+
+>: apt update
+>: apt install vim vim-gtk sudo git
+
+>: adduser USER sudo
+
+>: Reboot
+
+#disable recommended and suggested packages that beeing pulled by apt install by default
+>: sudo cp /usr/share/doc/apt/apt.conf /etc/apt
+>: sudo nano /etc/apt/apt.conf
+
+	APT::Install-Recommends "0";
+	APT::Install-Suggests "0"
+
+#Pop sound, disabling power saving options
+>:The solution is to add this to /etc/modprobe.d/alsa-base.conf
+
+	options snd-hda-intel power_save=0 power_save_controller=N
+
+>: sudo apt install alsa-utils build-essential chromium feh geany gimp git gzip hsetroot htop lxappearance maim mpc mpd nano ncmpcpp neofetch neovim notification-daemon openvpn pekwm pkg-config pulseaudio pulsemixer ranger rar scrot sudo tint2 transmission-cli transmission-daemon transmission-remote-cli unrar unzip vim w3m w3m-img wmctrl xcompmgr xdotool xfce4-panel xfce4-pulseaudio-plugin xfce4-weather-plugin xfce4-xkb-plugin xorg xcreensaver xterm zip
+
+#st requirements
+>: sudo apt install libx11-dev libxft-dev
+
+#git use to#
+git config --global user.email "sirartier@gmail.com"

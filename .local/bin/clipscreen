@@ -1,0 +1,3 @@
+#!/bin/bash
+maim -s /tmp/woot.png && xclip -selection clipboard -t image/png /tmp/woot.png && rm /tmp/woot.png
+exit

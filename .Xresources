@@ -1,0 +1,73 @@
+!! Transparency (0-1):
+*.alpha: 0.92
+*.foreground: #fff
+!! Set a default font and font size as below:
+*.font:terminus:size=8
+
+! black
+*.color0: #000
+*.color8: #fff
+
+! red
+*.color1: #E54040
+*.color9: #cc2626
+
+! green
+*.color2: #8cc95d
+*.color10: #269e1e
+
+! yellow
+*.color3: #ffcf7b
+*.color11: #f2b611
+
+! blue
+*.color4: #6bb5fb
+*.color12: #11f2d0
+
+! magenta
+*.color5: #f3a6b0
+*.color13: #ed6e84
+
+! cyan
+*.color6: #06c2ac
+*.color14: #06c2ac
+
+! white
+*.color7: #FFFEFC
+*.color15: #777B7E
+
+URxvt*color0: #000
+URxvt*color1: #cc2626
+URxvt*color2: #269e1e
+URxvt*color3: #f2b611
+URxvt*color4: #a0cffa
+URxvt*color5: #ff4ced
+URxvt*color6: #06c2ac
+URxvt*color7: #fffefc
+URxvt*color8: #fff
+URxvt*color9: #e54040
+URxvt*color10: #8cc95d
+URxvt*color11: #ffcf7b
+URxvt*color12: #6bb5fb
+URxvt*color13: #f581ac
+URxvt*color14: #06c2ac
+URxvt*color15: #fff5e3
+
+!! URxvt Appearance
+URxvt.font: -*-terminus-*
+URxvt.boldFont: -*-terminus-*
+URxvt.italicFont: -*-terminus-*
+URxvt.boldItalicfont: -*-terminus-*
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.geometry: 92x24
+URxvt.internalBorder: 12
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.saveline: 2048
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
+URxvt.depth: 32
+URxvt.background: [92]#282828
+URxvt.iso14755: false

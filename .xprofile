@@ -1,0 +1,7 @@
+#!/bin/bash
+xrandr --output Virtual1 --mode 1440x900
+setxkbmap -model 104 -layout you,ru,us "" -option ctrl:swapcaps,grp:win_space_toggle
+
+export TERM=st
+export BROWSER=chromium
+export EDITOR=nvim
