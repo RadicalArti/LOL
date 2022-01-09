@@ -21,6 +21,9 @@
 
 >: sudo apt install alsa-utils build-essential chromium feh geany gimp git gzip hsetroot htop lxappearance maim mpc mpd nano ncmpcpp neofetch neovim notification-daemon openvpn pekwm pkg-config pulseaudio pulsemixer ranger rar scrot sudo tint2 transmission-cli transmission-daemon transmission-remote-cli unrar unzip vim w3m w3m-img wmctrl xcompmgr xdotool xfce4-panel xfce4-pulseaudio-plugin xfce4-weather-plugin xfce4-xkb-plugin xorg xcreensaver xterm zip
 
+#cp keyboard layout
+sudo cp -R LOL/.system/usr/. /usr
+
 #st requirements
 >: sudo apt install libx11-dev libxft-dev
 
